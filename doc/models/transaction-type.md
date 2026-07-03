@@ -1,0 +1,65 @@
+
+# Transaction Type
+
+Type of transaction/fee recorded in the Settlement (and, by reference, POS Reporting) API.
+
+## Enumeration
+
+`TransactionType`
+
+## Fields
+
+| Name |
+|  --- |
+| `RETAIL` |
+| `CREDIT` |
+| `RETAILAPM` |
+| `CREDITAPM` |
+| `UNIQUE` |
+| `DECLINEDTXN` |
+| `MINIMUMMONTHLYSERVICECHARGE` |
+| `PCIFEE` |
+| `MERCHANTMONTHLYFEE` |
+| `MOTOFEE` |
+| `ZASHAPPFEE` |
+| `AIRTIMESERVICEFEE` |
+| `SETTLEMENTFEE` |
+| `SETTLEMENTFEETRANS` |
+| `ONEOFFTERMINALCOST` |
+| `ONEOFFTERMINALSETUPFEE` |
+| `MONTHLYRENTFEE` |
+| `FASTERFUNDINGMONTHLYFEE` |
+| `MONTHLYGATEWAYFEE` |
+| `AXEPTSERVICESSUBSCRIPTIONFEES` |
+| `ONEOFFCHARGE` |
+| `ONEOFFCHARGEWVAT` |
+| `RETAILCBK` |
+| `CREDITCBK` |
+| `RETAIL2PRS` |
+| `UNIQUE2PRS` |
+| `UNIQUECBK` |
+| `ENUM_RETAILCOLLABORATIONRDR` |
+| `ADJUSTMENTDUETOMANUALPAYMENT` |
+| `ACCOUNTREPLENISHMENT` |
+| `NEGATIVEBALANCETODDINVOICE` |
+| `CREDITNOTIF` |
+| `FEECOLLECTIONOUT` |
+| `FEECOLLECTIONINC` |
+| `FEECOLLECTIONCBKOUT` |
+| `FUNDSDISBOUT` |
+| `FUNDSDISBINC` |
+| `DEBITACCOUNT` |
+| `CREDITACCOUNT` |
+| `FEESADJUSTMENT` |
+| `HOLDSETTLEMENT` |
+| `RELEASEFUNDS` |
+| `TRANSFERTOSECURITYDEPOSIT` |
+
+## Example
+
+```python
+from dnapaymentspartnerreportingsettlementapis.models.transaction_type import TransactionType
+
+transaction_type = TransactionType.UNIQUE2PRS
+```
+
